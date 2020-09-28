@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace BridgeImporter
 {
-    class Import
+    class Importer
     {
+
     }
 }

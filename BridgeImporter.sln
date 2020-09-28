@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp3", "WindowsFormsApp3\WindowsFormsApp3.csproj", "{FD9716E3-E3EC-4408-A81D-0A2E973F59B6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgeImporter", "WindowsFormsApp3\BridgeImporter.csproj", "{FD9716E3-E3EC-4408-A81D-0A2E973F59B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

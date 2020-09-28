@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp3
+﻿namespace BridgeImporter
 {
     partial class Form1
     {
@@ -31,7 +31,7 @@
             this.buttonSelectExcelFilePath = new System.Windows.Forms.Button();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.buttonSelectExportFilePath = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.buttonSelectImportFolderPath = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -41,6 +41,8 @@
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.label7 = new System.Windows.Forms.Label();
             this.buttonImport = new System.Windows.Forms.Button();
+            this.folderBrowserDialog2 = new System.Windows.Forms.FolderBrowserDialog();
+            this.folderBrowserDialog3 = new System.Windows.Forms.FolderBrowserDialog();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,16 +64,17 @@
             this.buttonSelectExportFilePath.TabIndex = 1;
             this.buttonSelectExportFilePath.Text = "選択";
             this.buttonSelectExportFilePath.UseVisualStyleBackColor = true;
-            this.buttonSelectExportFilePath.Click += new System.EventHandler(this.button1_Click);
+            this.buttonSelectExportFilePath.Click += new System.EventHandler(this.buttonSelectExportFilePath_Click);
             // 
-            // button2
+            // buttonSelectImportFolderPath
             // 
-            this.button2.Location = new System.Drawing.Point(355, 280);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(89, 37);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "選択";
-            this.button2.UseVisualStyleBackColor = true;
+            this.buttonSelectImportFolderPath.Location = new System.Drawing.Point(355, 280);
+            this.buttonSelectImportFolderPath.Name = "buttonSelectImportFolderPath";
+            this.buttonSelectImportFolderPath.Size = new System.Drawing.Size(89, 37);
+            this.buttonSelectImportFolderPath.TabIndex = 2;
+            this.buttonSelectImportFolderPath.Text = "選択";
+            this.buttonSelectImportFolderPath.UseVisualStyleBackColor = true;
+            this.buttonSelectImportFolderPath.Click += new System.EventHandler(this.buttonSelectImportFolderPath_Click);
             // 
             // label1
             // 
@@ -81,7 +84,6 @@
             this.label1.Size = new System.Drawing.Size(115, 18);
             this.label1.TabIndex = 3;
             this.label1.Text = "エクセルファイル";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -157,6 +159,7 @@
             this.buttonImport.TabIndex = 11;
             this.buttonImport.Text = "インポート";
             this.buttonImport.UseVisualStyleBackColor = true;
+            this.buttonImport.Click += new System.EventHandler(this.buttonImport_Click);
             // 
             // Form1
             // 
@@ -172,7 +175,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.buttonSelectImportFolderPath);
             this.Controls.Add(this.buttonSelectExportFilePath);
             this.Controls.Add(this.buttonSelectExcelFilePath);
             this.Name = "Form1";
@@ -188,7 +191,7 @@
         private System.Windows.Forms.Button buttonSelectExcelFilePath;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
         private System.Windows.Forms.Button buttonSelectExportFilePath;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button buttonSelectImportFolderPath;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -198,6 +201,8 @@
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button buttonImport;
+        private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog2;
+        private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog3;
     }
 }
 

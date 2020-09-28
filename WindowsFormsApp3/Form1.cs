@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp3
+namespace BridgeImporter
 {
     public partial class Form1 : Form
     {
@@ -22,17 +22,29 @@ namespace WindowsFormsApp3
             DialogResult dr = folderBrowserDialog1.ShowDialog();
             if (dr == System.Windows.Forms.DialogResult.OK)
             {
-                //label.Text = folderBrowserDialog1.SelectedPath;
-
+                label4.Text = folderBrowserDialog1.SelectedPath;
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void buttonSelectExportFilePath_Click(object sender, EventArgs e)
         {
-
+            DialogResult dr = folderBrowserDialog2.ShowDialog();
+            if (dr == System.Windows.Forms.DialogResult.OK)
+            {
+                label5.Text = folderBrowserDialog2.SelectedPath;
+            }
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void buttonSelectImportFolderPath_Click(object sender, EventArgs e)
+        {
+            DialogResult dr = folderBrowserDialog3.ShowDialog();
+            if (dr == System.Windows.Forms.DialogResult.OK)
+            {
+                label6.Text = folderBrowserDialog3.SelectedPath;
+            }
+        }
+
+        private void buttonImport_Click(object sender, EventArgs e)
         {
 
         }
