@@ -1,0 +1,10 @@
+C:\Users\ttaka\OneDrive\デスクトップ\practice\BridgeImporter\WindowsFormsApp3\bin\Debug\BridgeImporter.exe.config
+C:\Users\ttaka\OneDrive\デスクトップ\practice\BridgeImporter\WindowsFormsApp3\bin\Debug\BridgeImporter.exe
+C:\Users\ttaka\OneDrive\デスクトップ\practice\BridgeImporter\WindowsFormsApp3\bin\Debug\BridgeImporter.pdb
+C:\Users\ttaka\OneDrive\デスクトップ\practice\BridgeImporter\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+C:\Users\ttaka\OneDrive\デスクトップ\practice\BridgeImporter\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form1.resources
+C:\Users\ttaka\OneDrive\デスクトップ\practice\BridgeImporter\WindowsFormsApp3\obj\Debug\BridgeImporter.Properties.Resources.resources
+C:\Users\ttaka\OneDrive\デスクトップ\practice\BridgeImporter\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\ttaka\OneDrive\デスクトップ\practice\BridgeImporter\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\ttaka\OneDrive\デスクトップ\practice\BridgeImporter\WindowsFormsApp3\obj\Debug\BridgeImporter.exe
+C:\Users\ttaka\OneDrive\デスクトップ\practice\BridgeImporter\WindowsFormsApp3\obj\Debug\BridgeImporter.pdb
